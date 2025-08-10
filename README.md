@@ -48,7 +48,7 @@ The script will output the price quotes from various DEXs along with their trade
 ---
 
 ## Code Overview
--sign_request(): Signs the request using your secret key and the HMAC SHA256 algorithm.
+- sign_request(): Signs the request using your secret key and the HMAC SHA256 algorithm.
 - get_weth_usdt_price(): Fetches the best quote for swapping WETH to USDT on Ethereum mainnet.
 - API request includes slippage tolerance (default 1%).
 - Prints detailed price info per DEX.
